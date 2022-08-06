@@ -58,9 +58,9 @@
   justify-content: $justify-content;
   align-items: $align-items;
   justify-items: $justify-items;
-  gap: $gap;
+  grid-gap: $gap;
 
   @media (min-width: map-get($breakpoints, md)) {
-    gap: $gap * $gap-ratio-md;
+    grid-gap: $gap * $gap-ratio-md;
   }
 }
